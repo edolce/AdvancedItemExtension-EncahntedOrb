@@ -1,0 +1,13 @@
+item-info:
+  material: "ENDER_EYE"
+  display-name: "&#121212[&l&#ffffff*&#121212] &#410061Enchant &l&#ffffffGrabber"
+  lore: ["&#ffffffUse this &l&#410061item &r&#ffffffto","&#ffffffstore some &l&#410061enchants"]
+  #DON'T USE 0: prevent other players to craft this item in vanilla style
+  model-data: 1
+enchant-storage-style:
+  new-lore: ["&#ffffffThese are the &l&#410061enchants&r&#ffffff:"]
+  # <enchant-name>: name of enchant
+  # <level>: level of enchant
+  enchants-list-line: ["&l&#410061Enchant: &#ffffff<enchant-name>","&l&#410061Level: &#ffffff<level>"]
+incompatible-message: "Incompatible Vanilla Enchant with the selected item!"
+inventory-full-message: "Your inventory is full, you need to have at least one free slot!"
